@@ -1,0 +1,21 @@
+<head>
+  <title>collection-repeat-maximum-stack</title>
+</head>
+
+<body>
+</body>
+
+<template name="Feed">
+  <div ng-controller="MainCtrl">
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">1000 Items</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item collection-repeat="item in items">
+          <p>{{item}}</p>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </div>
+</template>
